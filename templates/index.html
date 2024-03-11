@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athlete Information</title>
+    <link rel="stylesheet" href="./static/styles.css">
+    <script src="./static/script.js" defer></script>
+</head>
+<body>
+    <header class="mainpage-header">
+        <h1 class="heading">Analysis of 120 years of Olympic Events</h1>
+    </header>
+    <div class="parent-container">
+        <div class="background-container">
+        </div>
+        <div class="main-container">
+            <p class="olympic-pera">The Olympic Games are the world's only truly global, multi-sport, celebratory athletics
+                competition. With more than 200 countries participating in over 400 events across the
+                Summer and Winter Games, the Olympics are where the world comes to compete, feel inspired,
+                and be together.<br>This collaborative project, we embark on a dynamic exploration of 120 years
+                of Olympic events. Our analysis spans various dimensions, including medals, countries, sports,
+                age, and gender. Unveiling compelling narratives, we delve into the unique dynamics within
+                different age and gender groups, scrutinize the distinct characteristics of sports categories,
+                and examine what sets each country apart. Additionally, our interactive feature allows users
+                to input any athlete's name, extracting intriguing details about their Olympic journey. Join us
+                as we unfold the rich tapestry of Olympic history, unraveling stories that transcend time and
+                celebrate the enduring spirit of athleticism.</p>
+            <div class="header-container">
+                <h2>Athlete Information:</h2>
+            </div>
+
+            <div class="sub-container">
+                <div class="form-container">
+                    <form id="athleteForm">
+                        <label class="query-text" for="athlete_name">Enter the name of the athlete:</label>
+                        <input type="text" id="athlete_name" name="athlete_name" required>
+                        <button class="athlete-info-button" type="button" onclick="showInfo()">Show Athlete Information</button>
+                    </form>
+                </div>
+            </div>
+            <div Class="result-container">
+
+                <div id="infoResult"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="footer">
+        <p>&copy; 2024 Analysis of 120 years of Olympic Events Edunet YCCE</p>
+        <p>Team:     Dharti Bhuva,   Nikita Rathod,   Anup Tarone,   Harshal Zade,   Shivam Dhamange</p>
+    </div>
+</body>
+
+</html>
